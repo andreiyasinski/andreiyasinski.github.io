@@ -105,18 +105,18 @@ body {
   padding-bottom: 91px;
 }
 
-/*
+
 .links::before {
   content: 'links';
   position: absolute;
   font-size: 12px;
   font-weight: 900;
-  transform: rotate(-90deg);
+  transform: rotate(-90deg) translateX(-50%) translateY(-200%);
+  left: -65px;
   letter-spacing: 3px;
   color: #979797;
   text-transform: uppercase;
 }
-*/
 
 .links_list {
   display: flex;
@@ -163,7 +163,7 @@ body {
   justify-content: space-between;
   line-height: 1.88;
   padding: 118px 0 122px;
-  line-height: 1.88;
+  font-size: 16px;
 }
 
 .footer_nav_list {

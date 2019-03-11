@@ -35,7 +35,7 @@ body {
 }
 
 .nav-item:nth-child(1),
-.nav-item :nth-child(2) {
+.nav-item:nth-child(2) {
   float: left;
   margin-right: 70px;
 }
@@ -97,7 +97,7 @@ body {
   font-size: 16px;
 }
 
-.links-wrapper {
+.main-wrapper {
   border-bottom: 1px solid #ededed;
 }
 

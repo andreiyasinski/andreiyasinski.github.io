@@ -6,7 +6,7 @@ body {
   position: relative;
   max-width: 1100px;
   margin: 0 auto;
-  background: linear-gradient(90deg, #ededed 1px, transparent 1px) 1px 0, #fff;
+  background: linear-gradient(90deg, #ededed 1px, transparent 1px) 0.5px 0, #fff;
   background-size: calc(25% - 0.5px) 1px;
 }
 
@@ -115,8 +115,36 @@ body {
   border-bottom: 1px solid #ededed;
 }
 
+.works {
+  padding-bottom: 117px;
+}
+
+.works-data {
+  display: flex;
+}
+
+.container {
+  width: 50%;
+}
+
+.container:first-child {
+  padding-right: 30px;
+}
+
+.container:last-child {
+  padding-left: 30px;
+}
+
+.works-img:nth-child(2n+1) {
+  margin-bottom: 60px;
+}
+
 .about {
   padding-bottom: 118px;
+}
+
+.works-img {
+  width: 100%;
 }
 
 .about_main_data {

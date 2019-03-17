@@ -119,6 +119,10 @@ body {
   padding-bottom: 117px;
 }
 
+.works-link {
+  display: inline-block;
+}
+
 .works-data {
   display: flex;
 }

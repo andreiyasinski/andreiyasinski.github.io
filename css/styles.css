@@ -154,7 +154,7 @@ body {
   color: #fff;
 }
 
-.works-title {
+.works-feature {
   padding: 2px 15px 6px;
   background: #ffe300;
   display: inline-block;
@@ -165,7 +165,7 @@ body {
   margin-bottom: 17px;
 }
 
-.works-text {
+.works-title {
   font-size: 28px;
   font-weight: 700;
   line-height: 1.29;

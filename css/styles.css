@@ -232,21 +232,21 @@ body {
   display: inline-block;
   width: 129px;
   height: 43px;
-  background: url(../img/google.svg)
+  background: url(../img/google.svg) no-repeat;
 }
 
 .airbnb {
   display: inline-block;
   width: 138px;
   height: 43px;
-  background: url(../img/airbnb.svg)
+  background: url(../img/airbnb.svg) no-repeat;
 }
 
 .dropbox {
   display: inline-block;
   width: 44px;
   height: 43px;
-  background: url(../img/shape.svg)
+  background: url(../img/shape.svg) no-repeat;
 }
 
 .links {

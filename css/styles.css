@@ -322,6 +322,7 @@ body {
 .footer_info {
   width: 230px;
   margin-right: 45px;
+  flex-shrink: 0;
 }
 
 .footer_text {
@@ -332,7 +333,7 @@ body {
 .footer_form {
   display: flex;
   justify-content: space-between;
-  width: calc(100% - 275px)
+  width: 100%;
 }
 
 .footer_input {

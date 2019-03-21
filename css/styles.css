@@ -121,6 +121,7 @@ body {
 
 .works-link {
   display: inline-block;
+  width: 100%;
 }
 
 .works-data {

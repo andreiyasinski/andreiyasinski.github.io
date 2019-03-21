@@ -404,6 +404,10 @@ body {
   font-size: 16px;
 }
 
+.copyright {
+  font-size: 16px;
+}
+
 .footer_nav_list {
   display: flex;
 }

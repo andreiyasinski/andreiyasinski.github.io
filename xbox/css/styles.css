@@ -276,6 +276,11 @@ body {
   height: 58px;
 }
 
+.button_secondary {
+  background-color: #fff;
+  border: solid 2px rgba(43, 43, 43, 0.5);
+}
+
 .product__form-button {
   margin-top: 20px;
 }
@@ -297,4 +302,11 @@ body {
   left: 0;
   transform: translateX(calc(-100% - 13px));
   margin-right: 13px;
+}
+
+.product__form-text {
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  margin-top: 8px;
 }

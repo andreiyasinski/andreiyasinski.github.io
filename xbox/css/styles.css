@@ -114,7 +114,7 @@ body {
 }
 
 .content {
-
+  padding-bottom: 79px;
 }
 
 .product {
@@ -229,6 +229,7 @@ body {
 
 .price__value_previous {
   color: #d0021b;
+  font-weight: 500;
 }
 
 .rating {
@@ -267,6 +268,7 @@ body {
   border: 0;
   letter-spacing: 4.3px;
   cursor: pointer;
+  font-weight: 500;
 }
 
 .button_primary {

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500|Roboto:400,500" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -87,26 +87,64 @@
                 <span class="rating__amount">(50)</span>
               </div>
             </div>
-            <form class="product__form">
-              <select class="product__quantity" name="quantity">
-                <option selected value="Quantity (1)">Quantity (1)</option>
-                <option selected value="Quantity (2)">Quantity (2)</option>
-                <option selected value="Quantity (3)">Quantity (3)</option>
-                <option selected value="Quantity (4)">Quantity (4)</option>
-              </select>
-              <button class="button button_primary button_big product__form-button">
-                <span class="product__form-button-text">add to cart</span>
-              </button>
-              <p class="product__form-text">Free shipping on orders over $30</p>
-              <button class="button button_big product__form-button button_secondary">
-                <span>Find In Store</span>
-              </button>
-              <p class="product__form-text">Compatible with Xbox One, Xbox One S, and Xbox One X consoles.</p>
-            </form>
           </header>
+          <form class="product__form">
+            <select class="product__quantity" name="quantity">
+              <option selected value="Quantity (1)">Quantity (1)</option>
+              <option selected value="Quantity (2)">Quantity (2)</option>
+              <option selected value="Quantity (3)">Quantity (3)</option>
+              <option selected value="Quantity (4)">Quantity (4)</option>
+            </select>
+            <button class="button button_primary button_big product__form-button">
+              <span class="product__form-button-text">add to cart</span>
+            </button>
+            <p class="product__form-text">Free shipping on orders over $30</p>
+            <button class="button button_big product__form-button button_secondary">
+              <span>Find In Store</span>
+            </button>
+            <p class="product__form-text">Compatible with Xbox One, Xbox One S, and Xbox One X consoles.</p>
+          </form>
         </div>
       </section>
     </div>
   </main>
+  <div class="container">
+    <div class="content-wrapper">
+      <section class="additionally">
+        <h2 class="additionally__title">Complete Your Experience</h2>
+        <div class="similar-product-wrapper">
+          <div class="similar-product">
+            <img class="similar-product__img" src="./img/joystick.jpg" alt="gamepad">
+            <h3 class="similar-product__title">Xbox One Play & Charge Kit</h3>
+            <button class="button button_small button_primary">
+              <span class="similar-product__button-text">$19.99</span>
+            </button>
+          </div>
+          <div class="similar-product">
+            <img class="similar-product__img" src="./img/joystick.jpg" alt="gamepad">
+            <h3 class="similar-product__title">Xbox Wireless Adapter for Windows</h3>
+            <button class="button button_small button_primary">
+              <span class="similar-product__button-text">$24.99</span>
+            </button>
+          </div>
+          <div class="similar-product">
+            <img class="similar-product__img" src="./img/joystick.jpg" alt="gamepad">
+            <h3 class="similar-product__title">Xbox One Media Remote</h3>
+            <button class="button button_small button_primary">
+              <span class="similar-product__button-text">$24.99</span>
+            </button>
+          </div>
+          <div class="similar-product">
+            <img class="similar-product__img" src="./img/joystick.jpg" alt="gamepad">
+            <h3 class="similar-product__title">Xbox Chatpad</h3>
+            <button class="button button_small button_primary">
+              <span class="similar-product__button-text">$34.99</span>
+            </button>
+          </div>
+        </div>
+        
+      </section>
+    </div>
+  </div>
 </body>
 </html>

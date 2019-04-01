@@ -339,7 +339,7 @@ body {
   border-radius: 50%;
 }
 
-.product__color-text {
+.product__color-name {
   position: absolute;
   display: inline-block;
   margin-top: 8px;
@@ -348,7 +348,7 @@ body {
   line-height: 1.33;
 }
 
-.product__radio[type="radio"]:checked + .product__radio-border + .product__color-text {
+.product__radio[type="radio"]:checked + .product__radio-border + .product__color-name {
   visibility: visible;
 }
 

@@ -1,0 +1,153 @@
+/* 1281 - 1368 px */
+@media screen and (max-width: 1368px) {
+  .wrapper, .content-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu-block {
+    display: inline-block;
+  }
+
+  .nav {
+    /*display: none;*/
+    position: absolute;
+    left: 15px;
+    top: 65px;
+    z-index: 99;
+    width: 100%;
+    background: #fff;
+    transform: translateX(-100%);
+    transition: 0.5s ease;
+    background: #f8f8f8;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-list__item {
+    margin-left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .nav-list__item:hover {
+    background: #fff;
+  }
+
+  .menu_toggle {
+    transform: translateX(0);
+  }
+
+  .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .preview__list {
+    position: relative;
+    transform: none;
+    display: flex;
+  }
+
+  .preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .preview__item {
+    margin-right: 16px;
+  }
+
+  .preview__item:last-child {
+    margin-right: 0;
+  }
+}
+
+/* 1060 - 1280 px */
+@media screen and (max-width: 1280px) {
+  .menu-block {
+    display: inline-block;
+  }
+
+  .recommended-products {
+    display: none;
+  }
+}
+
+/* 769 - 960 px */
+@media screen and (max-width: 1060px) {
+	.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+  }
+
+  .product__info, .product__quantity, .button_big {
+    width: 100%;
+  }
+
+  .preview__list {
+    margin-bottom: 47px;
+  }
+
+  .preview__item {
+    margin-bottom: 0;
+  }
+
+  .preview__product-wrapper {
+    padding: 0;
+  }
+
+  .header__aside {
+    margin-left: 0;
+  }
+
+  .search__icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .search__input {
+    width: 34px;
+    border: none;
+  }
+
+  .header__aside-link {
+    display: none;
+  }
+
+  .search__input:focus {
+    width: 200px;
+    border: solid 1px rgba(151, 151, 151, 0.29);
+    transition: 0.5s ease;
+  }
+}
+
+/* 481 - 768 px */
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 122px;
+    height: 26px
+  }
+
+  .preview__product {
+    width: 100%;
+    max-height: 100%;
+  }
+}
+
+/* 320 - 480 px */
+@media screen and (max-width: 480px) {
+
+}

@@ -7,12 +7,16 @@
   <title>Document</title>
   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500|Roboto:400,500" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
   <header class="header">
     <div class="wrapper">
+      <div id="menu-btn" class="menu-block">
+        <span class="menu">SHOP</span>
+      </div>
       <a class="logo" href="#home">microsoft</a>
-      <nav class="nav header__nav">
+      <nav id="nav" class="nav header__nav">
         <ul class="nav-list">
           <li class="nav-list__item">
             <a class="nav-list__link link" href="#">devices</a>
@@ -45,6 +49,9 @@
     <div class="content-wrapper">
       <section class="product">
         <div class="preview">
+          <div class="preview__product-wrapper">
+            <img class="preview__product" src="./img/xbox-one.jpg" alt="photo xbox one">
+          </div>
           <ul class="preview__list">
             <li class="preview__item preview__item_active">
               <a class="preview__item-link">
@@ -62,9 +69,6 @@
               </a>
             </li>
           </ul>
-          <div class="preview__product-wrapper">
-            <img class="preview__product" src="./img/xbox-one.jpg" alt="photo xbox one">
-          </div>
         </div>
         <div class="product__info">
           <header class="product__info-header">
@@ -132,36 +136,37 @@
         <div class="similar-product-wrapper">
           <div class="similar-product">
             <a class="similar-product__link" href="#"><img class="similar-product__img" src="./img/joystick.jpg" alt="gamepad"></a>
-            <h3 class="similar-product__title">Xbox One Play & Charge Kit</h3>
+            <a href="#" class="similar-product__title">Xbox One Play & Charge Kit</a>
             <button class="button button_small button_primary">
               <span class="similar-product__button-text">$19.99</span>
             </button>
           </div>
           <div class="similar-product">
             <a class="similar-product__link" href="#"><img class="similar-product__img" src="./img/joystick.jpg" alt="gamepad"></a>
-            <h3 class="similar-product__title">Xbox Wireless Adapter for Windows</h3>
+            <a href="#" class="similar-product__title">Xbox Wireless Adapter for Windows</a>
             <button class="button button_small button_primary">
               <span class="similar-product__button-text">$24.99</span>
             </button>
           </div>
           <div class="similar-product">
             <a class="similar-product__link" href="#"><img class="similar-product__img" src="./img/joystick.jpg" alt="gamepad"></a>
-            <h3 class="similar-product__title">Xbox One Media Remote</h3>
+            <a href="#" class="similar-product__title">Xbox One Media Remote</a>
             <button class="button button_small button_primary">
               <span class="similar-product__button-text">$24.99</span>
             </button>
           </div>
           <div class="similar-product">
             <a class="similar-product__link" href="#"><img class="similar-product__img" src="./img/joystick.jpg" alt="gamepad"></a>
-            <h3 class="similar-product__title">Xbox Chatpad</h3>
+            <a href="#" class="similar-product__title">Xbox Chatpad</a>
             <button class="button button_small button_primary">
               <span class="similar-product__button-text">$34.99</span>
             </button>
           </div>
         </div>
-        
+        <script src='./js/index.js'></script>
       </section>
     </div>
   </div>
+  
 </body>
 </html>

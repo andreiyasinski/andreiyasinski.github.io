@@ -31,6 +31,43 @@ body {
   padding: 19px 0;
 }
 
+.menu-block {
+  display: none;
+  font-family: 'Barlow Condensed', sans-serif;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: rgb(43, 43, 43, 0.5);
+}
+
+.menu-block span::before,
+.menu-block span::after {
+  position: absolute;
+  top: 50%; 
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(43, 43, 43, 0.5);
+}
+
+.menu-block span::before,
+.menu-block span::after {
+  content: '';
+  display: block;
+  transition: 0.2s;
+}
+
+.menu-block span::before {
+  transform: translateY(-10px);
+}
+
+.menu-block span::after {
+  transform: translateY(10px);
+}
+
 .header__nav {
   margin-left: auto;
 }
@@ -441,6 +478,8 @@ body {
   height: 44px;
   text-align: center;
   font-weight: 400;
+  text-decoration: none;
+  color: #2b2b2b;
 }
 
 .button_small {
@@ -448,11 +487,4 @@ body {
   height: 40px;
   margin-top: 10px;
   margin-bottom: 20px;
-}
-
-@media (max-width: 1024px) {
-  .wrapper, .content-wrapper {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
 }

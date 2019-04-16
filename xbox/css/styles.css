@@ -455,28 +455,28 @@ body {
   text-transform: uppercase;
 }
 
-.recommended-product__list {
+.recommended__list {
   display: flex;
   justify-content: space-between;
 }
 
-.recommended-product {
+.recommended__product {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   background-color: #fff;
 }
 
-.recommended-product__link {
+.recommended__link {
   display: inline-flex;
 }
 
-.recommended-product__img {
+.recommended__img {
   width: 262px;
   height: 192px;
 }
 
-.recommended-product__name {
+.recommended__name {
   font-size: 16px;
   line-height: 1.38;
   letter-spacing: 0.3px;
@@ -494,7 +494,7 @@ body {
   height: 40px;
 }
 
-.recommended-product__button {
+.recommended__button {
   margin-top: auto;
   margin-bottom: 20px;
 }

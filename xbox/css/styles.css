@@ -441,6 +441,7 @@ body {
 
 .recommended-products {
   width: 100%;
+  padding-top: 73px;
 }
 
 .recommended-products__title {
@@ -448,7 +449,6 @@ body {
   font-size: 24px;
   font-weight: 500;
   letter-spacing: 1px;
-  margin-top: 73px;
   margin-bottom: 10px;
   text-align: center;
   text-transform: uppercase;

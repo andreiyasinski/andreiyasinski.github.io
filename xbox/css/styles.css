@@ -333,7 +333,6 @@ body {
 }
 
 .product__color {
-  position: relative;
   display: flex;
   justify-content: space-between;
   width: 105px;
@@ -342,8 +341,12 @@ body {
 
 .product__radio-container {
   display: inline-block;
-  position: relative;
   cursor: pointer;
+  margin-right: 9px;
+}
+
+.product__radio-container:last-child {
+  margin-right: 0;
 }
 
 .product__radio {
@@ -384,7 +387,6 @@ body {
 }
 
 .product__color-name {
-  position: absolute;
   display: inline-block;
   margin-top: 8px;
   visibility: hidden;

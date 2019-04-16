@@ -455,7 +455,7 @@ body {
   text-transform: uppercase;
 }
 
-.recommended-product-wrapper {
+.recommended-product__list {
   display: flex;
   justify-content: space-between;
 }

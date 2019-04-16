@@ -492,10 +492,9 @@ body {
 .button_small {
   width: 207px;
   height: 40px;
-  margin-top: 10px;
-  margin-bottom: 20px;
 }
 
 .recommended-product__button {
   margin-top: auto;
+  margin-bottom: 20px;
 }

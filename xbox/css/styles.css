@@ -439,13 +439,13 @@ body {
   background-color: #f8f8f8; 
 }
 
-.recommended-products {
+.recommended {
   width: 100%;
   padding-top: 73px;
   padding-bottom: 90px;
 }
 
-.recommended-products__title {
+.recommended__title {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 24px;
   font-weight: 500;

@@ -78,7 +78,7 @@
   }
 
   .menu_btn_active span  {
-    color: #fff;
+    color: transparent;
   }
 
   .menu_btn_active span::before {

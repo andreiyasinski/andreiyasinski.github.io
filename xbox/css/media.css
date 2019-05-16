@@ -151,7 +151,7 @@
   .search__input:focus {
     width: 200px;
     border: solid 1px rgba(151, 151, 151, 0.29);
-    transition: 0.5s ease;
+    transition: width 0.5s ease;
   }
 }
 
